@@ -40,7 +40,7 @@ This is a modern and responsive **Medical Surgical Goods Website** built with **
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/medicare-surgical.git
+git clone https://github.com/AkashRanjanSaikia/MediCare-Surgical.git
 cd medicare-surgical
 ```
 

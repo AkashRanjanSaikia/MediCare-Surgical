@@ -7,6 +7,7 @@ import Terms from "./pages/Terms";
 import Refund from './pages/Refund';
 import ScrollToTop from './utils/ScrollToTop';
 import NewFooter from './Components/layout/NewFooter';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
 
@@ -25,6 +26,8 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/refund" element={<Refund />} />
         <Route path="/new" element={<NewFooter />} />
+        <Route path="/*" element={<PageNotFound />} />
+
       </Routes>
     </Router>
 

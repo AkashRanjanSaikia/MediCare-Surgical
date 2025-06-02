@@ -15,6 +15,8 @@ const Card = ({ Icon, title, description }) => {
             },
         },
     };
+
+    
     return (
         <motion.div
             className="bg-blue-200 shadow-md rounded-xl p-6 w-4/5 max-w-sm border flex-center flex-col text-center gap-4 h-65"

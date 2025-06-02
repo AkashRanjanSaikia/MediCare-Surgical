@@ -33,11 +33,11 @@ const Values = () => {
 
         
         <motion.div
-          className="flex-center gap-6 mt-15 w-full  flex-col sm:flex-row "
+          className="flex-center gap-6 mt-15 w-full  flex-col sm:flex-row flex-wrap xl:flex-nowrap "
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={{ once: true, amount: 0.1 }}
         >
           {values.map((value, index) => (
             <Card

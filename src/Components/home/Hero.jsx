@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '@mui/material';
+import { Smartphone, Globe } from 'lucide-react';
 import Card from './Card';
 import { features } from '../../Constants';
 import { motion } from "motion/react"
@@ -75,6 +76,7 @@ const Hero = () => {
               variant={isSelected ? 'contained' : 'outlined'}
               onMouseEnter={() => setisSelected(true)}
             >
+              <Smartphone className="mr-2 h-5 w-5" />
               Download Android App
             </Button>
           </a>
@@ -83,6 +85,7 @@ const Hero = () => {
               variant={isSelected ? 'outlined' : 'contained'}
               onMouseEnter={() => setisSelected(false)}
             >
+              <Globe className="mr-2 h-5 w-5" />
               Visit iOS Portal
             </Button>
           </a>

@@ -10,20 +10,20 @@ const containerVariants = {
     y: 0,
     scale: 1,
     transition: {
-      duration: 0.3,
+      duration: 0.6,
       ease: 'easeInOut',
       delayChildren: 0.3,
-      staggerChildren: 0.2,
+      staggerChildren: 0.4,
     },
   },
 };
 const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0, y: 100 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.3,
+      duration: 0.9,
     },
   },
 };

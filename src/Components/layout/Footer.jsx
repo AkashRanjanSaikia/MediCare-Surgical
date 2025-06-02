@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-white text-gray-800 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
         {/* Top Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10 md:gap-16 xl:gap-28">
 
           {/* Brand and Contact Info */}
           <div className="lg:col-span-5 space-y-6">
@@ -53,8 +53,9 @@ const Footer = () => {
           </div>
 
           {/* Links and Socials */}
-          <div className="lg:col-span-7 space-y-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+          <div className="lg:col-span-7 space-y-10 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6  xl:gap-20">
+
               {/* Quick Links */}
               <div>
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -115,7 +116,7 @@ const Footer = () => {
                 >
                   <LinkedInIcon />
                 </IconButton>
-                
+
               </div>
             </div>
           </div>

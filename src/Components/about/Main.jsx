@@ -55,7 +55,7 @@ const Main = () => {
       <motion.div className="pt-0 mt-5 sm:mt-0" variants={itemVariants}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="ml-5">
+            <div className="ml-2 mt-10">
               <h2 className="text-3xl font-semibold text-gray-900 mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 To empower healthcare professionals with reliable, high-quality medical surgical
@@ -87,7 +87,7 @@ const Main = () => {
 
             {/* Mission related image */}
             
-            <div className="ml-5 p-8 rounded-lg mt-10">
+            <div className=" p-8 rounded-lg mt-10">
               <img
                 src='./aboutPage.jpg'
                 alt="Healthcare professional using medical equipment"

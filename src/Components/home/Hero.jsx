@@ -59,7 +59,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div variants={itemVariants}>
-          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed p-5">
             Trusted by healthcare professionals nationwide. We provide high-quality medical
             surgical goods to distributors, pharmacies, doctors, and healthcare facilities.
           </p>

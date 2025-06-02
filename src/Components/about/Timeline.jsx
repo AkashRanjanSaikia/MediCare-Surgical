@@ -15,9 +15,9 @@ const Timeline = () => {
 
           {/* List of milestones */}
           
-          <div className="space-y-8">
+          <div className="space-y-8 ">
             {milestones.map((milestone, index) => (
-              <div key={index} className="flex items-start">
+              <div key={index} className="flex  items-center">
                 <div className="flex-shrink-0 w-24 mt-2">
                   <div className="bg-blue-500 text-white text-sm font-semibold py-3 px-3 rounded-full text-center">
                     {milestone.year}

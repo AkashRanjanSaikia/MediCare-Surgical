@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-white text-gray-800 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
         {/* Top Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-25 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10">
 
           {/* Brand and Contact Info */}
           <div className="lg:col-span-5 space-y-6">
@@ -54,7 +54,7 @@ const Footer = () => {
 
           {/* Links and Socials */}
           <div className="lg:col-span-7 space-y-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-25">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
               {/* Quick Links */}
               <div>
                 <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
@@ -122,7 +122,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-8 p-5 border-t border-gray-200">
+        <div className="mt-4 mb-10 sm:mb-0 p-5 border-t border-gray-200">
           <p className="text-center text-sm text-gray-500">
             © 2025 MediCare Surgical. All rights reserved. | Professional medical equipment supplier.
           </p>

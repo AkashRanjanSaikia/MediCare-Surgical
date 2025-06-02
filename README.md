@@ -2,7 +2,15 @@
 
 This is a modern and responsive **Medical Surgical Goods Website** built with **React.js**, **Tailwind CSS**, and **Material UI (MUI)**. It showcases medical products, company information, and offers a contact form and newsletter subscription.
 
----
+
+<br>
+
+## 🌐 Live Demo
+
+Check out the live version here:  
+👉 [https://medi-care-surgical.vercel.app/](https://medi-care-surgical.vercel.app/)
+
+<br>
 
 ## ✨ Features
 
@@ -32,6 +40,7 @@ This is a modern and responsive **Medical Surgical Goods Website** built with **
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Material UI](https://mui.com/)
 - [Lucide Icons](https://lucide.dev/)
+- [Framer Motion](https://motion.dev/)
 
 ---
 

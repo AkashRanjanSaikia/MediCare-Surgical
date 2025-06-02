@@ -16,7 +16,7 @@ function App() {
 
        {/* ScrollToTop resets the page's scroll position on route change */}
       <ScrollToTop />
-      
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -122,7 +122,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-4 mb-10 sm:mb-0 p-5 border-t border-gray-200">
+        <div className="mt-4 p-5 border-t border-gray-200">
           <p className="text-center text-sm text-gray-500">
             © 2025 MediCare Surgical. All rights reserved. | Professional medical equipment supplier.
           </p>
